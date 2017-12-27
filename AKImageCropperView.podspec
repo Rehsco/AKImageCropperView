@@ -1,7 +1,7 @@
 Pod::Spec.new do |s|
 
   s.name         = "AKImageCropperView"
-  s.version      = "2.0.0"
+  s.version      = "3.0.0"
   s.homepage     = "https://github.com/artemkrachulov/AKImageCropperView"
   s.summary      = "Responsive image cropper"
   s.description  = <<-DESC
@@ -21,5 +21,4 @@ Pod::Spec.new do |s|
   }
 
   s.source_files  = "AKImageCropperView/*.{swift}"
-  s.pod_target_xcconfig = { 'SWIFT_VERSION' => '3.0' }
 end
